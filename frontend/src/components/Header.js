@@ -6,6 +6,7 @@ import { Navbar, Nav, Container, NavDropdown } from 'react-bootstrap'
 import SearchBox from './SearchBox'
 import { logout } from '../actions/userActions'
 
+
 const Header = () => {
   const dispatch = useDispatch()
 
@@ -18,11 +19,13 @@ const Header = () => {
 
   return (
     <header>
-      <Navbar bg='light' variant='light' expand='lg' collapseOnSelect>
+      
+     
+      <Navbar bg='light' variant='primary' expand='lg' collapseOnSelect>
         <Container>
           <LinkContainer to='/'>
             <Navbar.Brand>
-            <img src="./1.png" alt="bug" height={95} />
+            <img src="./3.png" alt="bug" height={100} />
             </Navbar.Brand>
           </LinkContainer>
           <Navbar.Toggle aria-controls='basic-navbar-nav' />
@@ -67,6 +70,7 @@ const Header = () => {
           </Navbar.Collapse>
         </Container>
       </Navbar>
+      
     </header>
   )
 }
