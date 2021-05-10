@@ -63,10 +63,3 @@ h2 {
     filter: invert(100%);
 }
 
-.navbar,
-.navbar-default {
-    background-image: url('./1.png') !important;
-    background-repeat: no-repeat;
-  
-  background-position: right;
-}
