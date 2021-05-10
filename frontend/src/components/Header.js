@@ -21,7 +21,7 @@ const Header = () => {
     <header>
       
      
-      <Navbar bg='light' variant='primary' expand='lg' collapseOnSelect>
+      <Navbar className="color-nav" variant='primary' expand='lg' collapseOnSelect>
         <Container>
           <LinkContainer to='/'>
             <Navbar.Brand>
@@ -29,7 +29,7 @@ const Header = () => {
             </Navbar.Brand>
           </LinkContainer>
           <Navbar.Toggle aria-controls='basic-navbar-nav' />
-          <Navbar.Collapse id='basic-navbar-nav'>
+          <Navbar.Collapse id='responsive-navbar-nav' >
             <Route render={({ history }) => <SearchBox history={history} />} />
             <Nav className='ml-auto'>
               <LinkContainer to='/cart'>

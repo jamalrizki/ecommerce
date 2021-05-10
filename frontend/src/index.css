@@ -1,17 +1,21 @@
 main {
   min-height: 80vh;
+  
 }
 
 h3 {
+  font-family: 'Dancing Script', cursive;
   padding: 1rem 0;
 }
 
 h1 {
+  font-family: 'Dancing Script', cursive;
   font-size: 1.8rem;
   padding: 1rem 0;
 }
 
 h2 {
+  font-family: 'Dancing Script', cursive;
   font-size: 1.4rem;
   padding: 0.5rem 0;
 }
@@ -61,5 +65,23 @@ h2 {
 .carousel-control-next,
 .carousel-control-prev /*, .carousel-indicators */ {
     filter: invert(100%);
+}
+
+.navbar {
+  font-family: 'Dancing Script', cursive;
+}
+
+.color-nav {
+  color: black;
+  background-color: white;
+}
+
+.navbar-toggler-icon {
+  
+color: white;
+
+} 
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3E%3Cpath stroke='rgba(0, 0, 0, 0.5)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E")
 }
 
